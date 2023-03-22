@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microsoft - Cloud, Computers, Apps &amp; Gaming</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="SHORTCUT ICON" href="/images/logo.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <!-- Navigation bar -->
+
+    <nav class="flex py-3 md:hidden">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="w-6 h-6 mx-2 cursor-pointer ">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="w-6 h-6 ml-2 cursor-pointer">
+            <path stroke-linecap="round" stroke-linejoin="round"
+                d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+        </svg>
+        <img src="m.png" alt="Microsoft" class="mx-auto w-28 h-6 cursor-pointer">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="w-6 h-6 mx-3 cursor-pointer">
+            <path stroke-linecap="round" stroke-linejoin="round"
+                d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+        </svg>
+
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="w-6 h- mx-3 cursor-pointer">
+            <path stroke-linecap="round" stroke-linejoin="round"
+                d="M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z" />
+        </svg>
+    </nav>
+
+    <!-- Navigation bar for medium and onward -->
+
+    <nav class="hidden text-sm pt-4 pb-2 mx-2 mr-2 justify-between md:flex xl:mx-6 xl:pr-4 2xl:px-10">
+        <div class="flex space-x-5">
+            <img src="/images/m.png" alt="" class="w-28 h-6 ml-8 cursor-pointer">
+            <h1 class="pt-1 cursor-pointer hover:underline">Microsoft 365</h1>
+            <h1 class="pt-1 cursor-pointer hover:underline">Teams</h1>
+            <h1 class="pt-1 cursor-pointer hover:underline">Windows</h1>
+            <h1 class="pt-1 cursor-pointer hover:underline">Surface</h1>
+            <h1 class="hidden pt-1 cursor-pointer hover:underline lg:block">Xbox</h1>
+            <h1 class="hidden pt-1 cursor-pointer hover:underline lg:block">Deals</h1>
+            <h1 class="hidden pt-1 cursor-pointer hover:underline lg:block">Small Business</h1>
+            <h1 class="hidden pt-1 cursor-pointer hover:underline lg:block">Support</h1>
+            <h1 class="pt-1 cursor-pointer hover:underline lg:hidden">More</h1>
+        </div>
+        <div class="flex space-x-4">
+            <div class="flex space-x-1">
+                <h1 class="pt-1 cursor-pointer hover:underline">All Microsoft</h1>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6 pt-1 cursor-pointer">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                </svg>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-6 h-6 cursor-pointer">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-6 h-6 cursor-pointer">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-6 h-6 cursor-pointer">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z" />
+            </svg>
+        </div>
+    </nav>
+
+    <div class=" bg-blue-800 px-6 mt-2 cursor-pointer">
+        <p class="flex text-white text-center justify-center font-semibold mx-auto py-4 hover:underline">
+            Shop with a product expert by chat or book an online appointment. Learn more
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-8 h-8 text-white mt-2 sm:mt-0">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+            </svg>
+        </p>
+    </div>
+
+    <!-- Info section -->
+    <div class="lg:flex lg:flex-row-reverse lg:bg-gray-100 lg:py-10 lg:pt-24 ">
+        <div class="bg-gray-100 lg:w-1/2">
+            <img src="/images/lap.png" alt="" class="pt-10 pb-5 mx-auto lg:pt-0">
+        </div>
+
+        <div class="py-5 lg:w-1/2 lg:mx-auto lg:px-24">
+            <p class="text-2xl font-semibold px-6 lg:text-3xl">Save up to $400 on select Surface Pro 8</p>
+            <p class="px-6 py-4">Save big, right now on the most powerful Pro, featuring the performance of a laptop and
+                the flexibility
+                of a tablet. If you have questions before you buy, chat with a product expert.</p>
+            <div class="flex flex-col text-blue-700 font-semibold ml-6 my-3 sm:flex-row lg:flex-col">
+                <button
+                    class="bg-blue-800 text-white font-semibold w-44 px-4 py-2 my-2 cursor-pointer hover:bg-blue-900 lg:mb-4">Shop
+                    Surface Pro 8</button>
+                <div class="flex cursor-pointer sm:my-auto sm:ml-7 lg:ml-0">
+                    <h1 class="hover:underline">Book a shopping appointment</h1>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!-- services section -->
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 xl:mx-12 mt-7">
+        <div class="my-3">
+            <img src="/images/1.webp" alt="" class="mx-auto">
+            <h1 class="text-blue-700 font-semibold underline py-2 text-center cursor-pointer">Choose your Microsoft 365
+            </h1>
+        </div>
+        <div class="my-3">
+            <img src="/images/2.webp" alt="" class="mx-auto">
+            <h1 class="text-blue-700 font-semibold underline py-2 text-center cursor-pointer">Shop Surface devices</h1>
+        </div>
+        <div class="my-3">
+            <img src="/images/3.webp" alt="" class="mx-auto">
+            <h1 class="text-blue-700 font-semibold underline py-2 text-center cursor-pointer">Buy Xbox games and
+                consoles</h1>
+        </div>
+        <div class="my-3 ">
+            <img src="/images/1.webp" alt="" class="mx-auto">
+            <h1 class="text-blue-700 font-semibold underline py-2 text-center cursor-pointer">Get Windows 11</h1>
+        </div>
+        <div class="my-3">
+            <img src="/images/4.webp" alt="" class="mx-auto">
+            <h1 class="text-blue-700 font-semibold underline py-2 text-center cursor-pointer">Find your next PC
+            </h1>
+        </div>
+        <div class="my-3">
+            <img src="/images/5.webp" alt="" class="mx-auto">
+            <h1 class="text-blue-700 font-semibold underline py-2 text-center cursor-pointer">Shop Business</h1>
+        </div>
+    </div>
+
+    <!-- Laptops Section -->
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 lg:mx-12">
+        <div>
+            <img src="/images/p1.webp" alt="" class="w-full px-3 py-5">
+            <h1 class="text-xl font-semibold px-4 lg:text-2xl">Up to $300 off select Surface Laptop 4</h1>
+            <p class="px-4">Do it all with a perfect balance of sleek design, speed, and immersive audio.</p>
+            <div class="flex text-blue-700 font-semibold px-4 py-6 cursor-pointer">
+                <h2 class="hover:underline">Shop Surface Laptop 4</h2>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                </svg>
+            </div>
+        </div>
+        <div>
+            <img src="/images/p2.jpg" alt="" class="w-full px-3 py-5">
+            <h1 class="text-xl font-semibold px-4 lg:text-2xl">Surface Laptop Go 2</h1>
+            <p class="px-4">A sleek laptop with a 12.4-inch touchscreen and great typing experience.</p>
+            <div class="flex text-blue-700 font-semibold px-4 py-6 cursor-pointer">
+                <h2 class="hover:underline">Shop now</h2>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                </svg>
+            </div>
+        </div>
+        <div>
+            <img src="/images/p3.jpg" alt="" class="w-full px-3 py-5">
+            <h1 class="text-xl font-semibold px-4 lg:text-2xl">Power your dreams</h1>
+            <p class="px-4">Experience a new era in next-gen performance with Xbox Series X and Xbox Series S.</p>
+            <div class="flex text-blue-700 font-semibold px-4 py-6 cursor-pointer">
+                <h2 class="hover:underline">Xbox Series X</h2>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                </svg>
+            </div>
+        </div>
+        <div>
+            <img src="/images/p4.webp" alt="" class="w-full px-3 py-5">
+            <h1 class="text-xl font-semibold px-4 lg:text-2xl">Play EA SPORTS™ FIFA 23 now</h1>
+            <p class="px-4">Experience The World's Game in EA SPORTS™ FIFA 23—featuring HyperMotion2 Technology on Xbox
+                Series X|S,
+                men's and women's FIFA World Cup™ content via a post-launch update, and more.</p>
+            <div class="flex text-blue-700 font-semibold px-4 py-6 cursor-pointer">
+                <h2 class="hover:underline">Get FIFA 23</h2>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                </svg>
+            </div>
+        </div>
+    </div>
+
+    <!-- Next PC -->
+
+    <div class="bg-[#f2f2f2] cursor-pointer lg:flex lg:flex-row-reverse lg:mx-16">
+        <div class="bg-gray-100 py-12 my-10 lg:w-1/2 lg:my-0 lg:py-0">
+            <img src="/images/lap2.png" alt="" class="w-52 h-52 mx-auto lg:w-fit lg:h-fit lg:py-16">
+        </div>
+        <div class="lg:w-1/2 lg:py-16 lg:my-auto lg:px-14">
+            <h1 class="text-2xl font-semibold pl-4 lg:text-3xl">Do more with Windows</h1>
+            <p class="px-4 py-3">Shop tablets, laptops, all-in-ones, gaming PCs, and more</p>
+            <button class="bg-blue-800 text-white font-semibold px-4 py-2 mx-4 my-4 hover:bg-blue-900">Find your next
+                PC</button>
+        </div>
+    </div>
+
+    <!-- Business section -->
+
+    <h1 class="text-2xl font-semibold px-3 mt-16 lg:text-3xl lg:ml-12">For Business</h1>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 lg:mx-12">
+        <div>
+            <img src="/images/b1.webp" alt="" class="w-full px-3 py-5">
+            <h1 class="text-xl font-semibold px-4 lg:text-2xl">Surface Pro 8 for Business</h1>
+            <p class="px-4">Get unprecedented levels of performance and versatility on a 13-inch screen. Available with
+                Windows 11.
+            </p>
+            <div class="flex text-blue-700 font-semibold px-4 py-6 cursor-pointer">
+                <h2 class="hover:underline">Shop now</h2>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                </svg>
+            </div>
+        </div>
+        <div>
+            <img src="/images/b2.webp" alt="" class="w-full px-3 py-5">
+            <h1 class="text-xl font-semibold px-4 lg:text-2xl">Get Microsoft Teams for free</h1>
+            <p class="px-4">Online meetings, chat, and shared cloud storage—all in one place.</p>
+            <div class="flex text-blue-700 font-semibold px-4 py-6 cursor-pointer">
+                <h2 class="hover:underline">Sign up for free</h2>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                </svg>
+            </div>
+        </div>
+        <div>
+            <img src="/images/b3.jpg" alt="" class="w-full px-3 py-5">
+            <h1 class="text-xl font-semibold px-4 lg:text-2xl">Windows 11 for business is here</h1>
+            <p class="px-4">Designed for hybrid work. Powerful for employees. Consistent for IT. Secure for all.</p>
+            <div class="flex text-blue-700 font-semibold px-4 py-6 cursor-pointer">
+                <h2 class="hover:underline">Learn more</h2>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                </svg>
+            </div>
+        </div>
+        <div>
+            <img src="/images/b4.webp" alt="" class="w-full px-3 py-5">
+            <h1 class="text-xl font-semibold px-4 lg:text-2xl">Microsoft 365 for business</h1>
+            <p class="px-4">Stay a step ahead with powerful apps for productivity, connection, and security. Make an
+                appointment with
+                an expert to determine the best solution for your business.</p>
+            <div class="flex text-blue-700 font-semibold px-4 py-6 cursor-pointer">
+                <h2 class="hover:underline">Shop now</h2>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                </svg>
+            </div>
+        </div>
+    </div>
+
+    <!-- stories -->
+
+    <div class="cursor-pointer lg:bg-[#3b2e59] lg:flex flex-row-reverse lg:mx-16">
+        <div class="lg:w-1/2">
+            <img src="/images/i.png" alt="" class="my-8 w-full lg:my-0">
+        </div>
+        <div class="lg:w-1/2 lg:my-auto lg:px-12">
+            <h1 class="text-2xl font-semibold px-7 lg:text-white lg:text-3xl">Hispanic Heritage Month 2022</h1>
+            <p class="px-6 py-4 lg:text-white">This month, we celebrate the contributions, legacies, and achievements of
+                the community,
+                and highlight the
+                voices that bridge a rich and proud history with a vibrant and dynamic future</p>
+            <button class="bg-blue-800 px-4 py-2 mx-6 text-white font-semibold hover:bg-blue-900">Read the
+                stories</button>
+        </div>
+    </div>
+
+    <!-- Contacts section -->
+    <hr class="my-5">
+    <div class="mt-12">
+        <div class="flex mx-3 mb-2 sm:ml-14">
+            <h1 class="pt-1 pr-4">Follow Microsoft</h1>
+            <img src="/images/Facebook.webp" class="w-8 h-8 mx-4" alt="" class="cursor-pointer">
+            <img src="/images/Linkedin.webp" class="w-8 h-8 mx-4"  alt="" class="cursor-pointer">
+            <img src="/images/Twitter.png" class="w-8 h-8 mx-4"  alt="" class="cursor-pointer">
+        </div>
+        <div class="flex bg-gray-300 mx-3 py-2 justify-center cursor-pointer hover:bg-white sm:w-36 sm:ml-auto sm:mr-8">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 6.75L12 3m0 0l3.75 3.75M12 3v18" />
+            </svg>
+            <h1 class="font-semibold">Back to top</h1>
+        </div>
+    </div>
+
+    <!-- About -->
+
+    <div class="grid bg-gray-100 mt-14 py-8 pl-6 sm:grid-cols-3 lg:grid-cols-6 xl:px-12">
+        <div class="sm:mt-7">
+            <h1 class="font-semibold">What's new</h1>
+            <h2 class="text-xs py-2 cursor-pointer hover:underline">Surface Laptop Go 2</h2>
+            <h2 class="text-xs py-2 cursor-pointer hover:underline">Surface Pro 8</h2>
+            <h2 class="text-xs py-2 cursor-pointer hover:underline">Surface Laptop Studio</h2>
+            <h2 class="text-xs py-2 cursor-pointer hover:underline">Surface Pro x</h2>
+            <h2 class="text-xs py-2 cursor-pointer hover:underline">Surface Go 3</h2>
+            <h2 class="text-xs py-2 cursor-pointer hover:underline">Surface Dua 2</h2>
+            <h2 class="text-xs py-2 cursor-pointer hover:underline">Surface Pro 7+</h2>
+            <h2 class="text-xs py-2 cursor-pointer hover:underline">Windows 11 apps</h2>
+        </div>
+        <div class="pt-8">
+            <h1 class="font-semibold">Microsoft Store</h1>
+            <h2 class="text-xs py-2 cursor-pointer hover:underline">Account profile</h2>
+            <h2 class="text-xs py-2 cursor-pointer hover:underline">Download center</h2>
+            <h2 class="text-xs py-2 cursor-pointer hover:underline">Microsoft Store support</h2>
+            <h2 class="text-xs py-2 cursor-pointer hover:underline">Returns</h2>
+            <h2 class="text-xs py-2 cursor-pointer hover:underline">Order tracking</h2>
+            <h2 class="text-xs py-2 cursor-pointer hover:underline">Virtual workshops and training</h2>
+            <h2 class="text-xs py-2 cursor-pointer hover:underline">Microsoft Store Promise</h2>
+            <h2 class="text-xs py-2 cursor-pointer hover:underline">Flexible Payments</h2>
+        </div>
+        <div class="pt-8">
+            <h1 class="font-semibold">Education</h1>
+            <h2 class="text-xs py-2 cursor-pointer hover:underline">Microsoft in education</h2>
+            <h2 class="text-xs py-2 cursor-pointer hover:underline">Devices for education</h2>
+            <h2 class="text-xs py-2 cursor-pointer hover:underline">Microsoft teams for education</h2>
+            <h2 class="text-xs py-2 cursor-pointer hover:underline">Microsoft 365 Education</h2>
+            <h2 class="text-xs py-2 cursor-pointer hover:underline">Education consultation appointment</h2>
+            <h2 class="text-xs py-2 cursor-pointer hover:underline">Educator training and development</h2>
+            <h2 class="text-xs py-2 cursor-pointer hover:underline">Deals for students and parents</h2>
+            <h2 class="text-xs py-2 cursor-pointer hover:underline">Azure for students</h2>
+        </div>
+        <div class="pt-8">
+            <h1 class="font-semibold">Business</h1>
+            <h2 class="text-xs py-2 cursor-pointer hover:underline">Microsoft cloud</h2>
+            <h2 class="text-xs py-2 cursor-pointer hover:underline">Microsoft Security</h2>
+            <h2 class="text-xs py-2 cursor-pointer hover:underline">Dynamics 365</h2>
+            <h2 class="text-xs py-2 cursor-pointer hover:underline">Microsoft 365</h2>
+            <h2 class="text-xs py-2 cursor-pointer hover:underline">Microsoft power platform</h2>
+            <h2 class="text-xs py-2 cursor-pointer hover:underline">Microsoft Teams</h2>
+            <h2 class="text-xs py-2 cursor-pointer hover:underline">Microsoft Industry</h2>
+            <h2 class="text-xs py-2 cursor-pointer hover:underline">Small Business</h2>
+        </div>
+        <div class="pt-8">
+            <h1 class="font-semibold">Developer & IT</h1>
+            <h2 class="text-xs py-2 cursor-pointer hover:underline">Azure</h2>
+            <h2 class="text-xs py-2 cursor-pointer hover:underline">Developer Center</h2>
+            <h2 class="text-xs py-2 cursor-pointer hover:underline">Documentation</h2>
+            <h2 class="text-xs py-2 cursor-pointer hover:underline">Microsoft Learn</h2>
+            <h2 class="text-xs py-2 cursor-pointer hover:underline">Microsoft Tech community</h2>
+            <h2 class="text-xs py-2 cursor-pointer hover:underline">Azure Marketplace</h2>
+            <h2 class="text-xs py-2 cursor-pointer hover:underline">AppSource</h2>
+            <h2 class="text-xs py-2 cursor-pointer hover:underline">Visual Studio</h2>
+        </div>
+        <div class="pt-8">
+            <h1 class="font-semibold">Company</h1>
+            <h2 class="text-xs py-2 cursor-pointer hover:underline">Careers</h2>
+            <h2 class="text-xs py-2 cursor-pointer hover:underline">About Microsoft</h2>
+            <h2 class="text-xs py-2 cursor-pointer hover:underline">Company news</h2>
+            <h2 class="text-xs py-2 cursor-pointer hover:underline">Privacy at Microsoft</h2>
+            <h2 class="text-xs py-2 cursor-pointer hover:underline">Investors</h2>
+            <h2 class="text-xs py-2 cursor-pointer hover:underline">Diversity and inclusion</h2>
+            <h2 class="text-xs py-2 cursor-pointer hover:underline">Accessiblity</h2>
+            <h2 class="text-xs py-2 cursor-pointer hover:underline">Sustainability</h2>
+        </div>
+    </div>
+
+    <!-- Footer -->
+
+    <Footer class="hidden sm:flex flex-col  bg-gray-100 py-6 lg:flex-row">
+        <div class="flex space-x-6">
+            <h1></h1>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-6 h-6 cursor-pointer">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418" />
+            </svg>
+            <h1 class="text-sm cursor-pointer hover:underline">English (United States)</h1>
+        </div>
+        <div class="flex text-xs space-x-6 lg:ml-auto lg:mr-16">
+            <h1></h1>
+            <h1 class="cursor-pointer hover:underline">Sitemap</h1>
+            <h1 class="cursor-pointer hover:underline">Contact Microsoft</h1>
+            <h1 class="cursor-pointer hover:underline">Privacy</h1>
+            <h1 class="cursor-pointer hover:underline">Terms of use</h1>
+            <h1 class="cursor-pointer hover:underline">Trademarks</h1>
+            <h1 class="cursor-pointer hover:underline">Safety & eco</h1>
+            <h1 class="cursor-pointer hover:underline">About our ads</h1>
+            <h1>© Microsoft 2022</h1>
+        </div>
+    </Footer>
+</body>
+
+</html>
